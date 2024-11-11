@@ -1,0 +1,36 @@
+.c-choice-colors {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+  &__caption {
+    //font-weight: bold;
+  }
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  &__listoption {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: pink;
+    border-radius: 50%;
+    border: solid thin $color-grey--dark;
+    padding: 0;
+    margin: 0 0 0 $size-padding;
+
+    &--pattern-1 {
+      background-image: url('../img/texture--blue.jpg');
+    }
+    &--pattern-2 {
+      background-image: url('../img/texture--brown.jpg');
+    }
+
+    &--pattern-3 {
+      background-image: url('../img/texture--pink.jpg');
+    }
+  }
+}

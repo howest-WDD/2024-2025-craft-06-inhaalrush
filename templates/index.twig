@@ -3,10 +3,88 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Document</title>
+		<title>Swedish Design</title>
 		{{ craft.vite.script('src/js/app.js', false) }}
 	</head>
+
 	<body>
-		Hello world from the template in the Vite Craft Starter
+		<div class="c-page">
+			<div class="c-page__main">
+				<section class="c-nav">
+					<div class="c-nav__hamburger">
+						<a class="c-nav__link" href=""><img src="img/logo.svg" alt="" class="c-nav__logo"></a>
+						<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="butt">
+							<line x1="3" y1="12" x2="21" y2="12"></line>
+							<line x1="3" y1="6" x2="21" y2="6"></line>
+							<line x1="3" y1="18" x2="21" y2="18"></line>
+						</svg>
+					</div>
+
+
+					<ul class="c-nav__main">
+						<li class="c-nav__item">
+							<a class="c-nav__link" href="">Home</a>
+						</li>
+						<li class="c-nav__item">
+							<a class="c-nav__link" href="">Couch</a>
+						</li>
+						<li class="c-nav__item">
+							<a class="c-nav__link" href="">Lounge Chair</a>
+						</li>
+						<li class="c-nav__item">
+							<a class="c-nav__link" href="">Dining Chair</a>
+						</li>
+						<li class="c-nav__item">
+							<a class="c-nav__link" href="">FAQ
+							</a>
+						</li>
+					</ul>
+				</section>
+				<section class="c-overview">
+					<h1>Our products</h1>
+					<div class="c-overview__products">
+						<div class="c-overview__product">
+							<a href="">
+								<img class="c-overview__image" src="img/stockholm.jpg" alt="">
+								<h2 class="c-overview__title">Stockholm</h2>
+								<div class="c-overview__details">
+									<p class="c-overview__style">Dining Chair</p>
+									<p class="c-overview__price">430€</p>
+								</div>
+							</a>
+						</div>
+						<div class="c-overview__product">
+							<a href="">
+								<img class="c-overview__image" src="img/Havberg.jpg" alt="">
+								<h2 class="c-overview__title">Havberg</h2>
+								<div class="c-overview__details">
+									<p class="c-overview__style">Lounge Chair</p>
+									<p class="c-overview__price">1628€</p>
+								</div>
+							</a>
+						</div>
+						<div class="c-overview__product">
+							<a href="">
+								<img class="c-overview__image" src="img/Jaettebo.jpg" alt="">
+								<h2 class="c-overview__title">Jaettebo</h2>
+								<div class="c-overview__details">
+									<p class="c-overview__style">Couch</p>
+									<p class="c-overview__price">5430€</p>
+								</div>
+							</a>
+						</div>
+
+					</div>
+				</section>
+			</div>
+			<div class="c-page__footer">
+				<ul class="c-nav-footer">
+					<li class="c-nav-footer__item">
+						<a href="" class="c-nav-footer__link">Faq</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 	</body>
+
 </html>

@@ -1,0 +1,22 @@
+.c-single-page {
+  //position: relative;
+  &__title {
+    // position: absolute;
+    // top: 0;
+    // bottom: 0;
+
+    padding: 1rem;
+    min-width: $size-album/3 - 1rem;
+    height: $size-album/3 - 1rem;
+    // background-color: rgba(0, 0, 50, 0.5);
+    background-color: transparentize($color: $color-accent2, $amount: 0.3);
+    color: $color-white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+  }
+  &__content {
+    padding: 1.5rem 18rem 1.5rem 1rem;
+  }
+}

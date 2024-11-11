@@ -1,0 +1,20 @@
+.c-nav-footer {
+  background-color: $color-accent2--lighter;
+  color: $color-accent2--light;
+  margin: 0;
+  padding: 0.5rem 0;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  &__item {
+    padding: 0 1rem;
+  }
+  &__link {
+    color: $color-accent2--light;
+    text-decoration: none;
+  }
+}

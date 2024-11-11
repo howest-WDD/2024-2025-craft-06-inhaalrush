@@ -1,0 +1,64 @@
+.c-album {
+  display: flex;
+  flex-direction: column;
+  flex-basis: $size-album;
+  //border: thin solid green;
+  position: relative;
+
+  &__caption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: $size-album/3;
+    height: $size-album/3;
+    // background-color: rgba(0, 0, 50, 0.5);
+    background-color: transparentize($color: $color-accent2, $amount: 0.3);
+    color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 3000;
+    font-size: 2rem;
+  }
+  &__big-picture {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    width: $size-album;
+    display: flex;
+  }
+  &__zoom {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3001;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-color: $color-accent1;
+    color: $color-white;
+    line-height: 1.5rem;
+    &:hover {
+      background-color: $color-accent2--light;
+      cursor: pointer;
+    }
+    &--back {
+      top: 18rem;
+      left: 18rem;
+    }
+    &--leg {
+      top: 35rem;
+      left: 33rem;
+    }
+  }
+  &__options {
+    // background-color: green;
+
+    display: flex;
+    align-items: center;
+    padding: $size-padding;
+  }
+}

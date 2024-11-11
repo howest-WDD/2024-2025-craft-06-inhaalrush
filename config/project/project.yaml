@@ -1,21 +1,42 @@
-dateModified: 1726233031
+dateModified: 1731351136
 email:
   fromEmail: voornaam.naam@howest.be
   fromName: 'Craft Template'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  local:
+    hasUrls: true
+    name: Local
+    settings:
+      path: '@webroot/local'
+    type: craft\fs\Local
+    url: '@web/local'
 meta:
   __names__:
+    4f49f8d6-fcea-4d93-bd5f-2f1a69f5e749: 'Body Text' # Body Text
+    8a1aaf94-7fe9-4933-a97e-279134ad381b: FAQ # FAQ
+    9c9b39d1-83ac-41d3-8beb-211bc382db60: 'Plain Text' # Plain Text
     10d2260b-dd05-4a49-abb3-800017e15928: 'Craft Template' # Craft Template
+    709ad421-6984-45a5-9003-6128f4ac4559: 'Content Builder' # Content Builder
+    732ea0e6-53d1-4250-a053-1c903ff2d7af: Simple # Simple
+    a5223b82-adba-4aa2-ab66-4de687eb10d3: Image # Image
+    ab8d8fad-c16c-43d7-a456-46119a21f0b9: Style # Style
+    e45e7712-8405-478a-a11b-27a7e36c9e5d: Chair # Chair
     f6eaef1f-2f88-4856-8eee-c5ae9620f572: 'Craft Template' # Craft Template
 plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
   vite:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
 system:
-  edition: solo
+  edition: pro
   live: true
-  name: 'Craft Template'
+  name: 'Swedish Design'
+  retryDuration: null
   schemaVersion: 5.3.0.2
   timeZone: America/Los_Angeles
 users:

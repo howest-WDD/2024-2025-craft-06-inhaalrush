@@ -1,0 +1,81 @@
+.c-overview {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 2rem;
+  &__title {
+  }
+  &__filters {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  &__filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  &__filter {
+    border: $color-accent2--light thin solid;
+    color: $color-accent2;
+    text-decoration: none;
+    margin: 0 1rem;
+    padding: 0.25rem 1rem;
+    &:hover {
+      background-color: $color-accent2--light;
+      color: $color-white;
+      cursor: pointer;
+    }
+    &--active {
+      background-color: $color-accent2--light;
+      color: $color-white;
+      &:hover {
+        color: $color-accent2;
+      }
+    }
+  }
+
+  &__product {
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-accent2--light;
+    width: 15rem;
+    text-decoration: none;
+    color: $color-dark;
+    &:hover {
+      background-color: $color-accent2;
+      color: $color-accent1--dark;
+    }
+
+    & a {
+      text-decoration: none;
+      color: $color-dark;
+    }
+
+    & img {
+      width: 100%;
+    }
+
+    & h2 {
+      padding-left: 1rem;
+
+    }
+  }
+
+  &__details {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: .8rem;
+
+  }
+}

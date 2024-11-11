@@ -1,0 +1,115 @@
+color: null
+fieldLayouts:
+  f97d9493-c133-4ba5-97a9-1cd5156ab6f3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2024-11-11T16:25:55+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 4bb62aba-4e05-418c-a4c9-029e363d7772
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-11T16:57:03+00:00'
+            elementCondition: null
+            fieldUid: a5223b82-adba-4aa2-ab66-4de687eb10d3 # Image
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e0c36cfc-fda6-4771-a3d5-7550a30e83e7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-11T16:57:03+00:00'
+            elementCondition: null
+            fieldUid: 9c9b39d1-83ac-41d3-8beb-211bc382db60 # Plain Text
+            handle: price
+            includeInCards: false
+            instructions: null
+            label: Price
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fb96b8d9-a74c-49cc-9fb7-301285bcfc6a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-11T16:57:03+00:00'
+            elementCondition: null
+            fieldUid: 4f49f8d6-fcea-4d93-bd5f-2f1a69f5e749 # Body Text
+            handle: description
+            includeInCards: false
+            instructions: null
+            label: Description
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 11204fdb-10ad-42ca-849a-ebec2f681965
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2024-11-11T16:57:03+00:00'
+            elementCondition: null
+            fieldUid: ab8d8fad-c16c-43d7-a456-46119a21f0b9 # Style
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 753a0047-13e8-4862-bc21-8690a1aaf5d7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 921ed715-63f8-4eb3-b1f6-adc6116f9b6e
+        userCondition: null
+handle: chair
+hasTitleField: true
+icon: ''
+name: Chair
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: ''
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

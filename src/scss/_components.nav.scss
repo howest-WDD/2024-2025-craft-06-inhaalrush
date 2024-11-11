@@ -1,0 +1,56 @@
+.c-nav {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20rem;
+  background-color: $color-accent2--light;
+  flex-shrink: 0;
+  height: 100vh;
+  &__hamburger {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 0;
+    justify-content: space-between;
+    //background-color: aqua;
+    background-color: $color-accent2--light;
+    color: $color-dark;
+    padding: $size-padding $size-padding * 1.5;
+    text-align: center;
+  }
+
+  &__logo{
+    width: 2rem;
+  }
+  &__main {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    color: $color-dark;
+    margin: 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0;
+    &:hover {
+      cursor: pointer;
+      & > .c-nav__link {
+        color: $color-accent2--dark;
+      }
+    }
+  }
+  &__link {
+    color: $color-dark;
+    text-decoration: none;
+  }
+  &__btn {
+    &:hover {
+      color: $color-dark;
+    }
+  }
+  &__pict {
+  }
+}

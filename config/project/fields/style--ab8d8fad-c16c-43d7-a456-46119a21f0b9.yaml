@@ -1,0 +1,43 @@
+columnSuffix: null
+handle: style
+instructions: null
+name: Style
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - Couch
+        -
+          - value
+          - couch
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Lounge Chair'
+        -
+          - value
+          - loungeChair
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Dining Chair'
+        -
+          - value
+          - diningChair
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\RadioButtons
